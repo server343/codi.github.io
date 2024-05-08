@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Codificador/Decodificador de Palabras</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Codificador/Decodificador de Palabras</h1>
+        <div class="input-group">
+            <label for="palabra">Introduce la palabra:</label>
+            <input type="text" id="palabra">
+        </div>
+        <div class="input-group">
+            <label for="palabraCodificada">Introduce la palabra codificada:</label>
+            <input type="text" id="palabraCodificada">
+        </div>
+        <button onclick="codificar()">Codificar</button>
+        <button onclick="decodificar()">Decodificar</button>
+        <div id="resultado"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
